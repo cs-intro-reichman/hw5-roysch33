@@ -160,9 +160,9 @@ public class Scrabble {
 					System.out.println("Invalid word. Try again.");
 				}
 			}
-			else {
-				System.out.println("Invalid word. Try again.");
-			}
+			//else {
+			//	System.out.println("Invalid word. Try again.");
+			//}
 			if (input.equals(".")){
 				break;
 			}
