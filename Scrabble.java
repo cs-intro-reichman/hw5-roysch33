@@ -133,6 +133,9 @@ public class Scrabble {
 			// non-whitespace characters. Whitespace is either space characters, or  
 			// end-of-line characters.
 			String input = in.readString();
+			if (input.equals(".")){
+				break;
+			}
 			// checking if the letters in the input are in the given hand:
 			int counting = 0;
 			for (int j = 0; j < input.length(); j++){
@@ -163,9 +166,7 @@ public class Scrabble {
 			else {
 				System.out.println("Invalid word. Try again.");
 			}
-			if (input.equals(".")){
-				break;
-			}
+			
 		}
 		if (hand.length() == 0) {
 	        System.out.println("Ran out of letters. Total score: " + score + " points");
