@@ -133,7 +133,6 @@ public class Scrabble {
 			// non-whitespace characters. Whitespace is either space characters, or  
 			// end-of-line characters.
 			String input = in.readString();
-			System.out.println("you entered the word:" + input);
 			// checking if the letters in the input are in the given hand:
 			int counting = 0;
 			for (int j = 0; j < input.length(); j++){
