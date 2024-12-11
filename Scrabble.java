@@ -157,11 +157,11 @@ public class Scrabble {
 					
 				}
 				else {
-					System.out.println("the word doesn't exist in the Dictionary");
+					//System.out.println("the word doesn't exist in the Dictionary");
 				}
 			}
 			else {
-				System.out.println("the word given doesn't match with the given letters in the hand");
+				//System.out.println("the word given doesn't match with the given letters in the hand");
 			}
 			if (input.equals(".")){
 				break;
