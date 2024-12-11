@@ -153,15 +153,15 @@ public class Scrabble {
 							}
 						}
 					}
-					score = wordScore(input);
-					
+					score =+ wordScore(input);
+					System.out.println(input + " earned " + wordScore(input) + " points. Score: " + score + " points");
 				}
 				else {
-					//System.out.println("the word doesn't exist in the Dictionary");
+					System.out.println("Invalid word. Try again.");
 				}
 			}
 			else {
-				//System.out.println("the word given doesn't match with the given letters in the hand");
+				System.out.println("Invalid word. Try again.");
 			}
 			if (input.equals(".")){
 				break;
